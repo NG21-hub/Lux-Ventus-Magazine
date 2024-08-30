@@ -55,3 +55,43 @@ body {
     color: white;
     max-width: 494px;
 }
+
+/* footer  */
+
+footer {
+    background: #ffffff;
+    box-shadow: 6px 0px 6px 0px #0000000d;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 87px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+  }
+  
+  .footer-nav h1 {
+    margin-right: 5px;
+  }
+  
+  .footer hr {
+    margin-top: 77px;
+    margin-bottom: 34px;
+  }
+  
+  .footer-second {
+    margin-bottom: 37px;
+  }
