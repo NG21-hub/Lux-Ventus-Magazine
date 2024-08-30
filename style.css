@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     gap: 23px;
 
-    background: url(./photos/img 1.1.png);
+    background: url(./photos/img\ 1.1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
