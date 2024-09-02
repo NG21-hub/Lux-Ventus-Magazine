@@ -22,6 +22,35 @@ body {
   background-color: #F9F9F9;
 }
 
+/* header */
+.header {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 234px;
+    margin-top: 37px;
+    margin-left: 84px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-right: 84px;
+    margin-top: 40px;
+}
+.nav a{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+    transition: .2s;
+}
+
 /* First Section */
 .first-section {
   display: flex;
