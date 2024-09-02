@@ -10,49 +10,61 @@ body {
     background-color: #F9F9F9;
 }
 
-.first-section{
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
-    background: url(./photos/img\ 1.1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 218px;
-    padding-bottom: 148px;
-    border-radius: 20px;
-    max-width: 1272px;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 50px; 
-    padding-top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.first-section h4{
-    font-size: 14px;
-    font-weight: 700;
-    color: white; 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F9F9F9;
 }
 
-.first-section h1{
-    font-size: 46px;
-    font-weight: 400;
-    color: white;
+/* First Section */
+.first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  background: url(./photos/img\ 1.1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px; 
+  padding-bottom: 148px;
+  border-radius: 20px;
+  max-width: 1272px; 
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 50px; 
+}
+
+.first-section h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: white; 
+}
+
+.first-section h1 {
+  font-size: 46px;
+  font-weight: 400;
+  color: white;
 }
 
 .first-section span {
-    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
-    -webkit-background-clip: text; /* For Safari */
-    background-clip: text;
-    color: transparent;
-    font-weight: 700;
+  background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
 }
 
-.first-section p{
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
-    max-width: 494px;
+.first-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  max-width: 494px;
 }
 
 /* Topics section  */
