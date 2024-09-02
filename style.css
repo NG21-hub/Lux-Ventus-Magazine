@@ -186,7 +186,7 @@ footer {
   box-shadow: 6px 0px 6px 0px #0000000d;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  max-width: 1272px; 
+  max-width: 1440px; 
   width: 100%;
   margin: 0 auto;
   padding: 20px 50px; 
@@ -226,7 +226,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 120px; 
+  width: 234px; 
   height: auto;
 }
 
