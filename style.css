@@ -28,12 +28,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 50px;
 }
+
 .logo img{
     width: 234px;
     margin-top: 37px;
     margin-left: 84px;
 }
+
 .nav {
     display: flex;
     align-items: center;
@@ -41,6 +45,7 @@ body {
     margin-right: 84px;
     margin-top: 40px;
 }
+
 .nav a{
     font-family: Poppins;
     font-size: 14px;
